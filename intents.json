@@ -1,0 +1,591 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day","Hai"],
+         "responses": ["Hello, thanks for asking", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": ["  "],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "examcell",
+         "patterns": ["can I get the contact of examcell regarding the exams?","examxcell"],
+         "responses": ["Please do contact to respected person. incharge-Mr.P.Anil Kumar m.tech(ph.d) Email-viewedepcell@gmail.com phone: 9133300352"],
+         "context": [""]
+        },
+       	{"tag": "hihgest_package",
+         "patterns": ["What is the highest package secured from the college?","highest package"],
+         "responses": ["The highest package secured from the college is 19 lakhs per annum at amazon from batch 2016-2020."],
+         "context": [""]
+        },
+        {"tag": "package_year",
+         "patterns": ["What is the highest package secured from the college in the year 2022?","hihgest package in 2022"],
+         "responses": ["The highest package secured from the college is 9 lakhs per annum Intelipath from batch 2018-2022."],
+         "context": [""]
+        },
+        {"tag": "internshala",
+         "patterns": ["Is the college supports internships and internshala for the students?","internships"],
+         "responses": ["Yes,The college supports internships and internshala for the students."],
+         "context": [""]
+        },
+        {"tag": "scholarships_gov",
+         "patterns": ["Is there  any scholarships provided by the government for the student?","scholarships"],
+         "responses": ["Yes, Pragathi scholarships is provided by the  central government for the student .only two girl children per family are eligible .The annual family income must not be more than 8lakh."],
+         "context": [""]
+        },
+        {"tag": "incharge_scholarships",
+         "patterns": ["Who is the incharge of scholarships?","incharge of scholarships","incharge scholarships"],
+         "responses": ["the incharge of scholarships : Senior Assistant  incharge of scholarships Name: A.Venugopal   ph : 9959363095 email: view.scholarship05@gmail.com Junior Assistant  incharge of scholarships Name: U.Kasi  ph : 9701576634 email:uppilikasi2008@gmail.com"],
+         "context": [""]
+        },
+        {"tag": "rtc_bus_pass",
+         "patterns": ["Whom do we contact for RTC bus pass ?","RTC Buspass"],
+         "responses": ["U.Kasi  ph : 9701576634 email:uppilikasi2008@gmail.com"],
+         "context": [""]
+        },
+        {"tag": "rtc_documents",
+         "patterns": ["What are required documents to apply for RTC bus pass?","documents for RTC bus pass"],
+         "responses": ["The required documents to apply for RTC bus pass areAadhar card,10th marksheet,photo,application."],
+         "context": [""]
+        },
+        {"tag": "accountant_details",
+         "patterns": [" Who is the accountant for fee payments?","accountant","fee details","college fees"],
+         "responses": ["Please contact Senior Assistant  P. Chandra Sekhar Babu  ph: 9441944613 Junior Assistant  P.V.S.Hemanth  ph: 7086318677 "],
+         "context": [""]
+        },
+        {"tag": "admissions",
+         "patterns": ["Who is responsible for Admissions?","admissions details","admissions"],
+         "responses": ["Name :S.A.Ramakrishna Raju ph:9703064141 email:ramakrishnasiruvuri@gmail.com"],
+         "context": [""]
+        },
+        {"tag": "students_affairs",
+         "patterns": ["Who is responsible for student affairs ?","studennts affairs"],
+         "responses": ["Name : G.Gowri(Senior Assistant)  student affairs : letter of recomdations,feedback,attendance,orientation classes"],
+         "context": [""]
+        },
+        {"tag": "faculty_affairs",
+         "patterns": ["Who is responsible for faculty affairs ?","faculty affairs"],
+         "responses": ["Name : V.Kavitha(Junior Assistant) .faculity related details can be given."],
+         "context": [""]
+        },
+        {"tag": "tc",
+         "patterns": ["Whom do i contact for the transfer certificate(TC)?","TC"],
+         "responses": ["Do contact the respected person for the details .Name : O.Neelaveni ph:9398801227."],
+         "context": [""]
+        },
+        {"tag": "bonafide_details",
+         "patterns": ["Where can I get the bonafide certificate?","bonafide"],
+         "responses": ["Do contact the respected person for the details .Name : O.Neelaveni ph:9398801227."],
+         "context": [""]
+        },
+        {"tag": "workshops",
+         "patterns": ["Are workshops are conducted in the college?","workshops","workshops in college"],
+         "responses": ["Yes, some of the workshops are conducted in the college are Robotics,Machine learning ,Web apps etc…"],
+         "context": [""]
+        },
+        {"tag": "trainings",
+         "patterns": ["What are the tranings conducted by the traning and placements(T&P) ?","trainings through T&P","tranings by T&P"],
+         "responses": ["Technical traning, Aptitude traning, Behavioural traning."],
+         "context": [""]
+        },
+        {"tag": "technical_incharge",
+         "patterns": ["Who is the incharge for Technical inhouse traning ?","Technical incharge"],
+         "responses": ["the incharge for Technical inhouse traning Name : Ravi Chandra ph: 8125467322 email:rjagupilla@gmail.com ."],
+         "context": [""]
+        },
+        {"tag": "technical_skills",
+         "patterns": ["What are the technical skills can be trained?","technical skills"],
+         "responses": ["The technical skills are C,java etc.."],
+         "context": [""]
+        },
+        {"tag": "aptitude_incharge",
+         "patterns": ["Who is the incharge for Aptitude traning ?","aptitude training"],
+         "responses": ["the incharge for Aptitude traning Name : M.Krishna Kishore ph: 9948085845 email:venkatakishoremeesala@gmail.com ."],
+         "context": [""]
+        },
+         {"tag": "aptitude_skills",
+         "patterns": ["What are the Aptitude skills can be trained?","aptitude skills"],
+         "responses": ["The Aptitude skills are logical,quantitative,reasoning,puzzles  etc "],
+         "context": [""]
+        },
+	 {"tag": "behavioural_incharge",
+         "patterns": ["Who is the incharge for Behavioural traning ?","behavioural inharge"],
+         "responses": ["the incharge for Behavioural traning  Name : Dr.S.K.Chaitanya ph: 8297895100 email: viewplacements@gmail.com"],
+         "context": [""]
+        }, 
+	 {"tag": "behavioural_skills",
+         "patterns": ["What are the Behavioural skills can be trained?","behavioural skills"],
+         "responses": ["The Behavioural skills are softskills,verbal,interview skills etc.."],
+         "context": [""]
+        },
+       {"tag": "R&D",
+         "patterns": ["Is R&D availabe in college?","R&D","Research and development"],
+         "responses": ["Yes, The college has R&D and students can publish papers"],
+         "context": [""]
+        },
+	
+        {"tag": "online_fee_payment",
+         "patterns": ["what are account details to pay the fee online?","account details for fee payment","online fee payment"],
+         "responses": ["do refer the link for the process <a href='http://www.view.edu.in/images/abt/Online%20Payment.pdf' target='_blank'>http://www.view.edu.in/images/abt/Online%20Payment.pdf</a>"],
+         "context": [""]
+        },
+	{"tag": "hostel_details",
+         "patterns": ["Is there any hostel facility for the students in the college?","hostel facility"],
+         "responses": ["Yes , hostel is there. For hostel details do contact. phone: 8919743556"],
+         "context": [""]
+        },
+	{"tag": "hostel_wifi",
+         "patterns": ["What is the facilities provided in hostel?","hostel facilities"],
+         "responses": [" Yes , Wifi, food, Atm, online orders etc…"],
+         "context": [""]
+        },
+	{"tag": "hostle_ATM",
+         "patterns": ["Is ATM available for the hostlers in the hostel?","ATM facilities in hostel" ],
+         "responses": ["Yes ATM  is available."],
+         "context": [""]
+        },
+	{"tag": "hostle_mess_food",
+         "patterns": ["what are the mess timmings in the hostel?","mess timings"],
+         "responses": ["the mess timmings in the hostel Breakfast :7:30am – 9:30am ,Dinner : 7:30pm – 9:30pm"],
+         "context": [""]
+        },
+	{"tag": "hostel_room",
+         "patterns": ["what is the room limit in the hostel?","room limit"],
+         "responses": ["The limit is of four members for room."],
+         "context": [""]
+        },
+        {"tag": "canteen_stationary",
+         "patterns": ["Is stationary available in canteen?","stationary in canteen"],
+         "responses": ["Yes .drafters ,scientific calculators and other  stationary available."],
+         "context": [""]
+        },
+	{"tag": "canteen_time",
+         "patterns": ["Is there any timmings for college canteen?","timings of canteen"],
+         "responses": ["Same as college timmings."],
+         "context": [""]
+        },
+	{"tag": "canteen_food",
+         "patterns": ["what are food items provided in  the college cateen?","food in canteen","canteen food"],
+         "responses": [" Breakfast : idli,bonda, dosa.. Snacks : sandwich,puff,noodles etc..  Lunch :meals,fired rice, chicken biryani,parata."],
+         "context": [""]
+        },
+        {"tag": "teaching_methods",
+         "patterns": ["what are the teaching methods?","teaching methods"],
+         "responses": ["visual lectures", "flipped classrooms", "zig saw method","group discussions" ,"seminars"],
+         "context": [""]
+        },
+        {"tag": "projector_VLC",
+         "patterns": ["is VLC available?","projector"],
+         "responses": ["Yes ,each classroom is provided with projector facility  ."],
+         "context": [""]
+        },
+        {"tag": "lab_AC",
+         "patterns": ["Are the labs equipped with AC facilities?","lab ac"],
+         "responses": ["Yes AC  is available in labs."],
+         "context": [""]
+        },
+	{"tag": "cse_labs",
+         "patterns": ["how many cse computer labs are available ?","cse labs"],
+         "responses": ["There are five computer labs are available in the college."],
+         "context": [""]
+        },
+	{"tag": "ece_labs",
+         "patterns": ["how many ece labs are available ?","ece labs"],
+         "responses": ["There are six labs are available in the college."],
+         "context": [""]
+        },
+	{"tag": "eee_labs",
+         "patterns": ["how many eee labs are available ?","eee labs"],
+         "responses": ["There are five  labs are available in the college."],
+         "context": [""]
+        },
+         {"tag": "library",
+         "patterns": ["Are all the academic books are available in the library?","what kind of books available in library?","books in library"],
+         "responses": ["Yes, all the academic books are available in the library.","Academics, reports ,articles, news papers , story books, biographies, novels etc…"],
+         "context": [""]
+        },
+	{"tag": "digital_library",
+         "patterns": ["is digital library available in the campus?","digital library"],
+         "responses": ["Yes we have separate digital library available in the campus."],
+         "context": [""]
+        },
+	{"tag": "library_book_renewal",
+         "patterns": ["what is the book renewal duration in library?","book renewal"],
+         "responses": [" the book renewal duration in library is 15 days."],
+         "context": [""]
+        },
+	{"tag": "library_book_limit",
+         "patterns": ["Is there any limit for the number of books to be borrowed from the library?","limit of books"],
+         "responses": ["Each student can borrow maximum of Three books at once"],
+         "context": [""]
+        },
+	{"tag": "library_fine",
+         "patterns": ["Is  there any fine for the delay in the book submission in library?","fine for book"],
+         "responses": [" Yes, for each day 1 rupee is calculated from the over due date."],
+         "context": [""]
+        },
+        {"tag": "fee structure ",
+         "patterns": ["what is the college fee structure ?","fee structure"],
+         "responses": ["Fee structure is of two types 1.Convenor 2.Management ,Yearly Fee details of each Program per year for 2019-20 Academic years are given here under 1.B.TECH - 41,600,  2.M.TECH – 35,000,  3.M.B.A – 27,000"],
+         "context": [""]
+        },
+        {"tag": "bus transportation ",
+         "patterns": ["I want the information of the bus transportation enroute from….","transporatation information","bus transportation"],
+         "responses": ["To get clear info do contact to the transport manager.  phone: 9550869294"],
+         "context": [""]
+        },
+        {"tag": "college address ",
+         "patterns": ["can I get  the college address ?","college address"],
+         "responses": ["Vignan's institute of engineering for women, Kapujaggarajupeta, VSEZ(post), visakhapatnam-530 049 ,  Andhrapradesh. Phone : 9133300357 ,8886066339 :: Fax: 0891-2010485   Email:viewprincipal@gmail.com, website : www.vignanview.org Map link: <a href='https://goo.gl/maps/Vv8s3CVjE6npF9uy8' target='_blank'>https://goo.gl/maps/Vv8s3CVjE6npF9uy8</a>"],
+         "context": [""]
+        },
+        {"tag": "placement",
+         "patterns": ["what is the placement record of the college as of now?","placement record"],
+         "responses": [" As per now it crosses 1500 placements of batch 2018-2022. If more do contact viewplacements@gmail.com "],
+         "context": [""]
+        },
+	{"tag": "placement_traning",
+         "patterns": ["is there any extra training classes for the placements?"],
+         "responses": ["Yes. CCC, APEX ,TALENTIO,CRT  ETC…"],
+         "context": [""]
+        },
+	{"tag": "placement_incharge",
+         "patterns": ["who is the palcements incharge?","placement incharge"],
+         "responses": ["Placemnets incharge:  P.Mohan Ganesh emial-viewplacements@gmail.com phone-9494521752 "],
+         "context": [""]
+        },
+	{"tag": "traning_incharge",
+         "patterns": ["who is the traning incharge?","traning incharge"],
+         "responses": ["Traning incharge: Dr.S.K.Chaitanya  phone-8297895100 "],
+         "context": [""]
+        },
+	{"tag": "documents_for_transcripts",
+         "patterns": ["what documents are required to apply for transcripts?","documents for transcript"],
+         "responses": ["The required for transcripts: 1.Applicaataion form 2.Receipt of payment of required fees 3.Copies of marksheets and degree certificates  4.Copies of  id  card 5.Request letter of transcript."],
+         "context": [""]
+        },
+        {"tag": "documents_bonafide",
+         "patterns": [" What are required to get the bonafide documents?","documents for bonafide"],
+         "responses": ["These are required for  bonafide  Photocopy of your IDcard, Appliction form & fee receipt."],
+         "context": [""]
+        },
+	{"tag": "documents_freshers",
+         "patterns": ["what are require documents that have to submit to the college for the freshers in the joining?","documents for freshers"],
+         "responses": ["SSC marksheet original, intermediate marksheet original, scl/clg leaving certificate(TC) , scl/clg study certificate ,birth &adhar Xerox "],
+         "context": [""]
+        },
+        {"tag": "courses",
+         "patterns": ["what are the courses?","courses","Departments","Branches"],
+         "responses": ["CSE,ECE,EEE,IT,MECH,MBA,MTECH"],
+         "context": [""]
+        },
+        {"tag": "water",
+         "patterns": ["Is water facility available?","water facility"],
+         "responses": ["Yes, RO mineral water is available."],
+         "context": [""]
+        },
+	{"tag": "Duration_of_semester",
+         "patterns": ["what is the duration of one semester?","duration of one semester?"],
+         "responses": ["the duration of one semester is 5-6months."],
+         "context": [""]
+        },
+	{"tag": "Duration_of_class",
+         "patterns": ["what is the duration of one class?","duration of one class?"],
+         "responses": ["the duration of one class is 50min."],
+         "context": [""]
+        },
+	{"tag": "parking",
+         "patterns": ["is the parking facilities available for the vehicles for the students?","parking"],
+         "responses": ["  Yes , it is available."],
+         "context": [""]
+        },
+	{"tag": "events_in_college",
+         "patterns": ["what are the events that college is conducting?","event in college","events"],
+         "responses": ["Freshers, Associations, Yuvatarang ,Farewell  ,Felicitation,cultural events."],
+         "context": [""]
+        },
+	{"tag": "scholarships",
+         "patterns": ["Is college providing any scholarships and awards for the students.","scholarships"],
+         "responses": [" Vignan Institute of Engineering for Women's offering scholarships to students who are performing excellent academics and co-curricular activies.Means & merit scholarship for the students who excelled in academics."],
+         "context": [""]
+        },
+	{"tag": "dean_of_Administration",
+         "patterns": ["who is the dean admin of the college?","dean of Administration"],
+         "responses": ["dean of Administration Dr.P.S.RAVINDRA,(M.Com, M.B.A, M.Phil, Ph.D)   <a href='http://www.view.edu.in/admda.php' target='_blank'>http://www.view.edu.in/admda.php</a>"],
+         "context": [""]
+        },
+	{"tag": "dean_of_Academics",
+         "patterns": ["who is the dean academics of the college?","dean of Academics"],
+         "responses": ["dean of Academics name- T.Sandhya kumari"],
+         "context": [""]
+        },
+	{"tag": "dean_of_R&D",
+         "patterns": ["who is the dean R&D of the college?","dean of R&D"],
+         "responses": ["dean of R&D Name-Dr.K.Jayasri phone-9490223240 Email-jayasrikotti@gmail.com"],
+         "context": [""]
+        },
+	{"tag": "dean_of_IQAC",
+         "patterns": ["who is the dean IQAC of the college?","dean of IQAC"],
+         "responses": ["dean of IQAC Name-Dr.Akanksha Mishra  Email-misakanksha@gmail.com "],
+         "context": [""]
+        },
+	{"tag": "principal_of_college",
+         "patterns": [" Who Is the  principal of your college?","principal"],
+         "responses": ["principal- Dr.J.Sudhakar, Ph.D  <a href='http://www.view.edu.in/admp.php' target='_blank'>http://www.view.edu.in/admp.php</a>"],
+         "context": [""]
+        },
+	{"tag": "Eamcet_code",
+         "patterns": ["What is the Eamcet code for the college?","Eamcet code"],
+         "responses": ["Eamcet code -VIEW"],
+         "context": [""]
+        },
+	{"tag": "head_of_department_details",
+         "patterns": ["can I get the contact details of the head of the department?","HOD","Hods"],
+         "responses": ["These are the respected mails of hod : cse- Dr.K.Vijaya Kumar email-vijay_kollati@yahoo.co.in , mba-Dr.S.Ramesh  email-ramesh3818@yahoo.co.in,BS&H-Dr.K.Chaitanya email-cskcmail@gmail.com, ece- Dr. Ch. Ramesh Babu  email- rameshbabuchukka@gmail.com ,eee- Dr.K.Durga Syam Prasad email-kdurgasyam@gmail.com ,mech-Dr. V.Ananda Babu email-varadalaanand@gmail.com, IT-Dr.B.Prakash email-prakash.vza@gmail.com"],
+         "context": [""]
+        },
+        {"tag": "cse_hod",
+         "patterns": ["Who is CSE Hod?","cse hod"],
+         "responses": ["CSE Hod- Dr.K.Vijaya Kumar email-vijay_kollati@yahoo.co.in"],
+         "context": [""]
+        },
+       {"tag": "ece_hod",
+         "patterns": ["Who is ECE Hod?","ece hod"],
+         "responses": ["ECE Hod- Dr. Ch. Ramesh Babu  email- rameshbabuchukka@gmail.com"],
+         "context": [""]
+        },
+        {"tag": "eee_hod",
+         "patterns": ["Who is EEE Hod?","eee hod"],
+         "responses": ["EEE Hod- Dr.K.Durga Syam Prasad email-kdurgasyam@gmail.com"],
+         "context": [""]
+        },
+       {"tag": "it_hod",
+         "patterns": ["Who is IT Hod?","it hod"],
+         "responses": ["IT Hod-Dr.B.Prakash email-prakash.vza@gmail.com"],
+         "context": [""]
+        },
+       {"tag": "mech_hod",
+         "patterns": ["Who is MECH Hod?","mech hod"],
+         "responses": ["MECH Hod-Dr. V.Ananda Babu email-varadalaanand@gmail.com"],
+         "context": [""]
+        },
+       {"tag": "mba_hod",
+         "patterns": ["Who is MBA Hod?","mba hod"],
+         "responses": ["MBA Hod-Dr.S.Ramesh  email-ramesh3818@yahoo.co.in"],
+         "context": [""]
+        },
+       {"tag": "wifi_for_students",
+         "patterns": [" Is wifi available for the students in college?","wifi availability","wifi available in college"],
+         "responses": [" Yes, for projects, placement examinations etc.."],
+         "context": [""]
+        },
+	{"tag": "Eligibility_for_MBA",
+         "patterns": ["what is the Eligibility Criteria for Admission to MBA Courses in the college?","Eligibility for MBA"],
+         "responses": ["Eligibility for MBA :The minimum qualification for admission to first year of the MBA is a pass in undergraduate course (10 + 2 + 3).•70% of the seats are allotted based on the merit in the Integrated Common Entrance Test (ICET) conducted by Govt. of Andhra Pradesh.•30% of the seats are earmarked for Management Quota candidates."],
+         "context": [""]
+        },
+	{"tag": "Eligibility_for_M.TECH",
+         "patterns": ["What is the Eligibility Criteria for Admission to M.Tech Courses in the college?","Eligibility for M.Tech"],
+         "responses": ["Eligibility for M.Tech: The minimum qualification for admission into M.Tech is a pass in B.E / B.Tech in concern stream.•70% of the seats are allotted based on GATE score / rank obtained in PGECET for M.Tech Course.•30 % of the seats are earmarked for Management Quota candidates."],
+         "context": [""]
+        },
+	{"tag": "Eligibility_for_B.TECH",
+         "patterns": ["what is the Eligibility Criteria for Admission to B.Tech Courses in the college?","Eligibility for B.Tech"],
+         "responses": ["Eligibility for B.Tech : The minimum qualification for admission to first year of the B.Tech course is a pass in the Intermediate (10 + 2) conducted by the board of Intermediate education, Govt. of Andhra Pradesh with Mathematics, Physics and Chemistry as optional subjects.•70 % of the seats are allotted based on the merit in the Engineering, Agriculture and Pharmacy Common Entrance Test (EAPCET) conducted by Govt. of Andhra Pradesh.•30 % of the seats are earmarked for Management Quota candidates.•In addition to the above, Diploma holders are admitted in second year of B.Tech to the extent of 10% of intake based on the merit in the Engineering Common Entrance Test (ECET), under lateral entry scheme conducted by Govt. of Andhra Pradesh."],
+         "context": [""]
+        },
+	{"tag": "mission_vision_of_college",
+         "patterns": ["What is the  vision and mission of college?","vission and mission"],
+         "responses": ["VISION: To be a leading institution of women empowerment producing internationally accepted professionals with psychological strength, emotional balance and ethical values. MISSION: M1:To empower women engineers through innovative teaching-learning practices.•M2:To encourage for higher education and research with well-equipped laboratories. M3:To promote entrepreneurship through creativity and innovation. M4:To promote environmental sustainability and inculcate ethical, emotional and social consciousness."],
+         "context": [""]
+        },
+        {"tag": "mission_of_college",
+         "patterns": ["What is the mission of college?","mission"],
+         "responses": [" MISSION: M1:To empower women engineers through innovative teaching-learning practices.M2:To encourage for higher education and research with well-equipped laboratories. M3:To promote entrepreneurship through creativity and innovation. M4:To promote environmental sustainability and inculcate ethical, emotional and social consciousness."],
+         "context": [""]
+        },
+        {"tag": "vision_of_college",
+         "patterns": ["What is the  vision of college?","vission"],
+         "responses": ["VISION: To be a leading institution of women empowerment producing internationally accepted professionals with psychological strength, emotional balance and ethical values."],
+         "context": [""]
+        },
+        {"tag": "sports",
+         "patterns": [" How often do you have a sports?","sports"],
+         "responses": ["We do have sports weekly twice."],
+         "context": [""]
+        },
+        {"tag": "cse_vision",
+         "patterns": ["what is cse department vision"," cse vision"],
+         "responses": ["To be a center of excellence for producing proficient and socially responsible women electrical engineers for industry outreach through quality education and research."],
+         "context": [""]
+        },
+        {"tag": "ece_vision",
+         "patterns": ["what is ece department vision","ece vision"],
+         "responses": ["To emerge as a center of excellence in the field of Electronics & Communication Engineering to produce competent women engineers with ethical values."],
+         "context": [""]
+        },
+        {"tag": "mech_vision",
+         "patterns": ["what is mech department vision","mech vision"],
+         "responses": ["To evolve as a centre of excellence by adopting innovative methods for teaching, learning and industry outreach services in the diversified fields of Mechanical Engineering."],
+         "context": [""]
+        },
+       {"tag": "it_vision",
+         "patterns": ["what is it department vision","it vision"],
+         "responses": ["To evolve into a center of excellence and produce competent women IT professionals with ethics and values towards research, higher education and entrepreneurship."],
+         "context": [""]
+        },
+        {"tag": "eee_vision",
+         "patterns": ["what is eee department vision","eee vision"],
+         "responses": ["To be a center of excellence for producing proficient and socially responsible women electrical engineers for industry outreach through quality education and research."],
+         "context": [""]
+        },
+        {"tag": "indoor_sports",
+         "patterns": ["What are the indoor sports facilities?"],
+         "responses": ["we have indoor sports : chess  ,carrrom board, table tennis."],
+         "context": [""]
+        },
+        {"tag": "hostel_contact",
+         "patterns": ["Hostel contact number"],
+         "responses": ["Hostel chief warden number-7799078690"],
+         "context": [""]
+        },
+       {"tag": "outdoor_sports",
+         "patterns": ["What are the outdor sports facilities?","outdoor sports"],
+         "responses": ["Outdoor sports : Running track ,cricket ,volley ball, Throw ball , badminton."],
+         "context": [""]
+        },
+       {"tag": "Mech_labs",
+         "patterns": ["how many Mech  labs are available ?","mech labs"],
+         "responses": ["There are seven computer labs are available in the college."],
+         "context": [""]
+        },
+	{"tag": "lift_facility",
+         "patterns": ["Is lift there in college ?","lift"],
+         "responses": ["Yes.lift is available."],
+         "context": [""]
+        },	
+	{"tag": "NBA_Accredited",
+         "patterns": ["Is the college is NBA accredited?","NBA"],
+         "responses": ["Yes,the college is NBA accredited."],
+         "context": [""]
+        },
+        {"tag": "lost_ID_card",
+         "patterns": ["What if we lost our I'd card?","lost id card"],
+         "responses": ["You have to pay fine 50/- and college will provide new card"],
+         "context": [""]
+        },
+       {"tag": "uniform",
+         "patterns": ["where we can get the college uniform?","college uniform","uniform"],
+         "responses": ["Uniform is provided in college canteen, stiching services are also available."],
+         "context": [""]
+        },
+      {"tag": "jvd_certificates",
+         "patterns": ["what are certificates required for JVD","jvd"],
+         "responses": ["Residential proof, Income, Aadhaar card, Bank details, Clg admission certificate"],
+         "context": [""]
+        },
+      {"tag": "eligilibility_jvd",
+         "patterns": ["eligibility criteria for JVD"],
+         "responses": ["Students pursuing Polytechnic, ITI, and Degree & above level courses in Government/ Aided/ Private colleges, affiliated to State Universities/ Boards Day Scholar students, students in college attached hostels or Department attached hostelsAttendance criteria shall also be fulfilled. It is mandatory that 75% aggregate attendance criteria are met."],
+         "context": [""]
+        },
+       {"tag": "bus_areas",
+         "patterns": ["From which areas bus transportation is available","areas bus transportation is available"],
+         "responses": ["MVP, Seethamadara, Akayapaleum, Jagadama, Pendurthi, Chinnamulisivada, Naiduthota, Scindia, B.C.Road, Gajuwaka, Steel Plant,kurmannapleum, Anakapalli"],
+         "context": [""]
+        },
+
+	{"tag": "top_recruiters",
+         "patterns": ["what are the top recruiters for placements?","top recruiters"],
+         "responses": ["top recruiters : Accenture,tcs,wipro,Infosys,ibm etc…"],
+         "context": [""]
+        },
+	{"tag": "Assignments",
+         "patterns": ["how many assignments do we write for one subject?","assignments"],
+         "responses": ["six assignments for one subject"],
+         "context": [""]
+        },
+	{"tag": "BS&H_labs",
+         "patterns": ["what are the labs in the department of  basic science and humanities (BS&H) ?","BS&H labs"],
+         "responses": ["BS&H_labs : The labs are Applied /Engineering Physics Lab , Chemistry lab , English lab."],
+         "context": [""]
+        },
+	{"tag": "selflearning_Facilities",
+         "patterns": ["What are the self learning Facilities  provided by the college?","self learning Facilities"],
+         "responses": ["NPTEL,Digital Library, Department library."],
+         "context": [""]
+        },
+	{"tag": "student_clubs_CSE",
+         "patterns": ["What  are the student clubs of CSE department?","student clubs of CSE"],
+         "responses": ["student clubs of CSE : Champions of software enigma , Akshaya foundation , samskrithi, Techkrithi. "],
+         "context": [""]
+        },
+	{"tag": "student_clubs_ECE",
+         "patterns": ["What  are the student clubs of ECE department?","student clubs of ECE"],
+         "responses": ["student clubs of ECE : Navitas club,Activity club."],
+         "context": [""]
+        },
+	{"tag": "student_clubs_EEE",
+         "patterns": ["What  are the student clubs of EEE department?","student clubs of EEE"],
+         "responses": ["student clubs of EEE : Academic clubs(workshops, Guest Lectures, Seminars) ,Activityclubs.","student clubs of EEE"],
+         "context": [""]
+        },
+	{"tag": "student_clubs_IT",
+         "patterns": ["What  are the student clubs of IT department?","student clubs of IT"],
+         "responses": ["student clubs of IT : Shristi,Ashritha."],
+         "context": [""]
+        },
+	{"tag": "department_library",
+         "patterns": ["Is department library available for every department ?","department library"],
+         "responses": ["Yes we have department library in every department ."],
+         "context": [""]
+        },
+	{"tag": "Medical_facility",
+         "patterns": ["Is medical facility available in the college?","medical facility"],
+         "responses": ["Yes, available it is equipped with needed first-aid medicines."],
+         "context": [""]
+        },
+	{"tag": "Rest_room",
+         "patterns": ["Is rest room available in college?","rest room"],
+         "responses": ["Yes,  rest room is available."],
+         "context": [""]
+        },
+	{"tag": "CD_Library",
+         "patterns": ["Is CD’s also available in the library?","CD"],
+         "responses": ["Yes, available we can borrow CD’s  related to respective fields of study."],
+         "context": [""]
+        },
+       {"tag": "results",
+         "patterns": ["exam results","sem results","results link","results"],
+         "responses": ["Please click the link <a href='https://jntukresults.edu.in/' target='_blank'>https://jntukresults.edu.in/</a>"],
+         "context": [""]
+        },
+	{"tag": "R&D_Cooridnators",
+         "patterns": ["who are the coordinators of R&D ?","coordinators of R&D","coordinator R&D","R&D coordinator"],
+         "responses": [" Coordinators of R&D are: M.Pallavi(cse),Y.Lakshman Rao(it),P.Srinivas(ece),Y.Bhaskar Gupta(eee),K.Srikanth(bs&h),G.Anusha(mech),S.Ramesh(mba)"],
+         "context": [""]
+        },
+	{"tag": "jntuk_calendar",
+         "patterns": ["what is jntuk calendar","jntuk calendar","Academic calendar","semister timetable","sem timetable"],
+         "responses": ["click the link https://www.jntushala.in/jntuk-academic-calendar/ "],
+         "context": [""]
+        },
+	{"tag": "library_timmings",
+         "patterns": ["what are the library timmings?","library timmings"],
+         "responses": ["On all working days 8:30am to 5:30 pm "],
+         "context": [""]
+        }
+	
+   ]
+}
